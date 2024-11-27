@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".YourActivity">
+
+    <!-- Username Text with Material Design -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello!"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Log Out Button with Material Design -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginBottom="8dp"
+        app:cornerRadius="8dp"
+        android:gravity="center"
+        app:icon="@drawable/ic_logout" />
+
+    <!-- Clear Button with Material Design -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="8dp"
+        app:cornerRadius="8dp"
+        android:gravity="center"
+        app:icon="@drawable/ic_clear" />
+
+</LinearLayout>

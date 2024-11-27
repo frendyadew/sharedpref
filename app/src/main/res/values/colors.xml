@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1976D2</color> <!-- Biru -->
+    <color name="colorPrimaryDark">#1565C0</color> <!-- Biru Gelap -->
+    <color name="colorAccent">#64B5F6</color> <!-- Biru Muda -->
+    <color name="colorPrimaryLight">#64B5F6</color>
+    <color name="colorAccentDark">#1565C0</color>
+
+</resources>
